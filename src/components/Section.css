@@ -1,0 +1,29 @@
+.sec-container{
+    display: flex;
+    padding: 100px 150px;
+    background-color: rgba(150, 151, 151, 0.252);
+}
+.girl{
+    height: 720px;
+   position: relative;
+   
+}
+.sec-title{
+    position: absolute;
+    bottom: -70%;
+    left: 32%;
+    z-index: 100;
+    color: rgb(204, 204, 204);
+    font-size: 75px;
+    font-weight: 900;
+    width: 530px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec-para{
+    font-size:13px ;
+    margin: 330px 60px;
+    width: 450px;
+    line-height: 25px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

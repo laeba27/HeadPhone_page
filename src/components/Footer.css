@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    padding: 150px;
+    position: relative;
+    background-color: rgba(61, 62, 62, 0.22);
+    height: 1000px;
+    /* overflow: hidden; */
+}
+.details{
+    width: 500px;
+
+}
+.details h1{
+    font-size:100px ;
+    line-height: 83px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000bb;
+}
+.details p{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 250px;
+    font-size:13px ;
+    line-height: 25px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.smartcase{
+    height: 1200px;
+    position: absolute;
+    right: -12%;
+    top: -27%;
+    object-fit: contain;
+}

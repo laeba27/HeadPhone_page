@@ -1,0 +1,79 @@
+
+.container{
+    background-color: rgba(61, 62, 62, 0.22);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    max-height: 850px;
+    overflow: hidden;
+}
+.white-title{
+    text-transform: capitalize;
+    position: absolute;
+    width: 10px;
+    left: -3.5%;
+    top: 6%;
+}
+.white-title h1{
+    font-size: 260px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   word-break: keep-all;
+   color: rgba(255, 252, 252, 0.576);
+   line-height: 190px;
+}
+.headphones{
+    height: 700px;
+    padding-bottom: 60px;
+    z-index: 100;
+    margin-top: 0;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.content h1{
+    width: 250px;
+    line-height: 75px;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.75);
+}
+.content-para{
+    width: 300px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 23px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: grey;
+}
+.pods{
+    padding-top: 40px;
+    padding-right: 300px;
+    height: 1200px;
+
+}
+button {
+    margin: 12px;
+    height: 60px;
+    width: 200px;
+    border-radius: 30px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px -3px 10px #cdcaca, 5px 5px 15px #a6a4a4, inset 5px 5px 10px #979595, inset -5px -5px 10px #f6f5f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    font-size: 20px;
+    color: rgba(37, 37, 37, 0.461);
+    transition: 500ms;
+  }
+  
+  button:hover {
+    box-shadow: -5px -5px 15px #4444447c, 5px 5px 5px #7c7a7a73, inset 5px 5px 10px #8987879b, inset -5px -5px 10px #44444468;
+    color: black;
+    transition: 500ms;
+  }

@@ -1,6 +1,6 @@
 
 import './NavBar.css'
-import logo from '../assets/logo.png'
+import logo from '../assets/apple2.png'
 export default function NavBar() {
   return (
     <div>
@@ -9,10 +9,10 @@ export default function NavBar() {
      <img className='logo' src={logo} alt="" />
         </div>
         <div className='left-container'>
-        <h4>product</h4>
-        <h4>price</h4>
+        <h4>products</h4>
+        <h4>prices</h4>
         <h4>overview</h4>
-        <h4>contact</h4>
+        <h4>contacts</h4>
         </div>
 
       </div>

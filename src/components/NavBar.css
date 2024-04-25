@@ -2,17 +2,25 @@
 .container{
     display: flex;
     justify-content: space-between;
-    padding: 15px 200px;
+    padding: 30px 130px;
     align-items: center;
+    background-color: rgba(61, 62, 62, 0.134);
 }
 .left-container{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 45px;
+    padding-right: 30px;
 }
 .left-container h4{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 100;
     font-family:Arial, Helvetica, sans-serif ;
-    
+    text-transform: capitalize;
+    color: rgb(75, 74, 74);
+    letter-spacing: 0.7px;
+}
+.logo{
+    height: 32px;
+   
 }
